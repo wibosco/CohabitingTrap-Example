@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4303FBC23072A37F004FE025"
                BuildableName = "TotalCohabiting_Example.framework"
+               BlueprintName = "TotalCohabiting-Example"
                ReferencedContainer = "container:TotalCohabiting-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -36,6 +37,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4303FBCB3072A37F004FE025"
                BuildableName = "TotalCohabiting-ExampleTests.xctest"
+               BlueprintName = "TotalCohabiting-ExampleTests"
                ReferencedContainer = "container:TotalCohabiting-Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -64,6 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4303FBC23072A37F004FE025"
             BuildableName = "TotalCohabiting_Example.framework"
+            BlueprintName = "TotalCohabiting-Example"
             ReferencedContainer = "container:TotalCohabiting-Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

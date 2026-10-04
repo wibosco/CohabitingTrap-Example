@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "439C895B3072A71500167459"
                BuildableName = "AvatarShared_Example.framework"
+               BlueprintName = "AvatarShared-Example"
                ReferencedContainer = "container:AvatarShared-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -36,6 +37,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "439C89643072A71600167459"
                BuildableName = "AvatarShared-ExampleTests.xctest"
+               BlueprintName = "AvatarShared-ExampleTests"
                ReferencedContainer = "container:AvatarShared-Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -64,6 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "439C895B3072A71500167459"
             BuildableName = "AvatarShared_Example.framework"
+            BlueprintName = "AvatarShared-Example"
             ReferencedContainer = "container:AvatarShared-Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

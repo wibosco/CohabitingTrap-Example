@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "439C892F3072A6CF00167459"
                BuildableName = "AvatarCohabiting_Example.framework"
+               BlueprintName = "AvatarCohabiting-Example"
                ReferencedContainer = "container:AvatarCohabiting-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -36,6 +37,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "439C89383072A6CF00167459"
                BuildableName = "AvatarCohabiting-ExampleTests.xctest"
+               BlueprintName = "AvatarCohabiting-ExampleTests"
                ReferencedContainer = "container:AvatarCohabiting-Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -64,6 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "439C892F3072A6CF00167459"
             BuildableName = "AvatarCohabiting_Example.framework"
+            BlueprintName = "AvatarCohabiting-Example"
             ReferencedContainer = "container:AvatarCohabiting-Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

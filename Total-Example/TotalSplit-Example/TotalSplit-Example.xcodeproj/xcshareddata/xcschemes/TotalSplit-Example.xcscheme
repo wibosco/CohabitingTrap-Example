@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4303FC163072A421004FE025"
                BuildableName = "TotalSplit_Example.framework"
+               BlueprintName = "TotalSplit-Example"
                ReferencedContainer = "container:TotalSplit-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -36,6 +37,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4303FC1F3072A421004FE025"
                BuildableName = "TotalSplit-ExampleTests.xctest"
+               BlueprintName = "TotalSplit-ExampleTests"
                ReferencedContainer = "container:TotalSplit-Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -64,6 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4303FC163072A421004FE025"
             BuildableName = "TotalSplit_Example.framework"
+            BlueprintName = "TotalSplit-Example"
             ReferencedContainer = "container:TotalSplit-Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

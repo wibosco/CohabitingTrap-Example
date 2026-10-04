@@ -17,6 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "439C892F3072A6CF00167459"
                BuildableName = "AvatarCohabiting_Example.framework"
+               BlueprintName = "AvatarCohabiting-Example"
                ReferencedContainer = "container:Avatar-Example/AvatarCohabiting-Example/AvatarCohabiting-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -30,6 +31,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "439C895B3072A71500167459"
                BuildableName = "AvatarShared_Example.framework"
+               BlueprintName = "AvatarShared-Example"
                ReferencedContainer = "container:Avatar-Example/AvatarShared-Example/AvatarShared-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,6 +45,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4303FBC23072A37F004FE025"
                BuildableName = "TotalCohabiting_Example.framework"
+               BlueprintName = "TotalCohabiting-Example"
                ReferencedContainer = "container:Total-Example/TotalCohabiting-Example/TotalCohabiting-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,6 +59,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4303FC163072A421004FE025"
                BuildableName = "TotalSplit_Example.framework"
+               BlueprintName = "TotalSplit-Example"
                ReferencedContainer = "container:Total-Example/TotalSplit-Example/TotalSplit-Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
