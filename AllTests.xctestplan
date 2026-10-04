@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "75373185-6F93-46A7-ABD8-F7050838E1E2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Avatar-Example\/AvatarCohabiting-Example\/AvatarCohabiting-Example.xcodeproj",
+        "identifier" : "439C89383072A6CF00167459",
+        "name" : "AvatarCohabiting-ExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Avatar-Example\/AvatarShared-Example\/AvatarShared-Example.xcodeproj",
+        "identifier" : "439C89643072A71600167459",
+        "name" : "AvatarShared-ExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Total-Example\/TotalCohabiting-Example\/TotalCohabiting-Example.xcodeproj",
+        "identifier" : "4303FBCB3072A37F004FE025",
+        "name" : "TotalCohabiting-ExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Total-Example\/TotalSplit-Example\/TotalSplit-Example.xcodeproj",
+        "identifier" : "4303FC1F3072A421004FE025",
+        "name" : "TotalSplit-ExampleTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Avatar-Example/AvatarCohabiting-Example/AvatarCohabiting-Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Avatar-Example/AvatarShared-Example/AvatarShared-Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Total-Example/TotalCohabiting-Example/TotalCohabiting-Example.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Total-Example/TotalSplit-Example/TotalSplit-Example.xcodeproj">
+   </FileRef>
+</Workspace>
