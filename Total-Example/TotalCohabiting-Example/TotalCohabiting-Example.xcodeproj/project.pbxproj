@@ -41,14 +41,18 @@
 /* Begin PBXFrameworksBuildPhase section */
 		4303FBC03072A37F004FE025 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4303FBC93072A37F004FE025 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 				4303FBCD3072A37F004FE025 /* TotalCohabiting_Example.framework in Frameworks */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -76,8 +80,10 @@
 /* Begin PBXHeadersBuildPhase section */
 		4303FBBE3072A37F004FE025 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -92,6 +98,8 @@
 				4303FBC13072A37F004FE025 /* Resources */,
 			);
 			buildRules = (
+			);
+			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
 				4303FBC53072A37F004FE025 /* TotalCohabiting-Example */,
@@ -163,26 +171,34 @@
 /* Begin PBXResourcesBuildPhase section */
 		4303FBC13072A37F004FE025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4303FBCA3072A37F004FE025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4303FBBF3072A37F004FE025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4303FBC83072A37F004FE025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -195,7 +211,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4303FBD33072A37F004FE025 /* Debug configuration for PBXProject "TotalCohabiting-Example" */ = {
+		4303FBD33072A37F004FE025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		4303FBD43072A37F004FE025 /* Release configuration for PBXProject "TotalCohabiting-Example" */ = {
+		4303FBD43072A37F004FE025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,7 +331,7 @@
 			};
 			name = Release;
 		};
-		4303FBD63072A37F004FE025 /* Debug configuration for PBXNativeTarget "TotalCohabiting-Example" */ = {
+		4303FBD63072A37F004FE025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -360,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		4303FBD73072A37F004FE025 /* Release configuration for PBXNativeTarget "TotalCohabiting-Example" */ = {
+		4303FBD73072A37F004FE025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -405,7 +421,7 @@
 			};
 			name = Release;
 		};
-		4303FBD93072A37F004FE025 /* Debug configuration for PBXNativeTarget "TotalCohabiting-ExampleTests" */ = {
+		4303FBD93072A37F004FE025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -430,7 +446,7 @@
 			};
 			name = Debug;
 		};
-		4303FBDA3072A37F004FE025 /* Release configuration for PBXNativeTarget "TotalCohabiting-ExampleTests" */ = {
+		4303FBDA3072A37F004FE025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -461,29 +477,31 @@
 		4303FBBD3072A37F004FE025 /* Build configuration list for PBXProject "TotalCohabiting-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4303FBD33072A37F004FE025 /* Debug configuration for PBXProject "TotalCohabiting-Example" */,
-				4303FBD43072A37F004FE025 /* Release configuration for PBXProject "TotalCohabiting-Example" */,
+				4303FBD33072A37F004FE025 /* Debug */,
+				4303FBD43072A37F004FE025 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		4303FBD53072A37F004FE025 /* Build configuration list for PBXNativeTarget "TotalCohabiting-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4303FBD63072A37F004FE025 /* Debug configuration for PBXNativeTarget "TotalCohabiting-Example" */,
-				4303FBD73072A37F004FE025 /* Release configuration for PBXNativeTarget "TotalCohabiting-Example" */,
+				4303FBD63072A37F004FE025 /* Debug */,
+				4303FBD73072A37F004FE025 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		4303FBD83072A37F004FE025 /* Build configuration list for PBXNativeTarget "TotalCohabiting-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4303FBD93072A37F004FE025 /* Debug configuration for PBXNativeTarget "TotalCohabiting-ExampleTests" */,
-				4303FBDA3072A37F004FE025 /* Release configuration for PBXNativeTarget "TotalCohabiting-ExampleTests" */,
+				4303FBD93072A37F004FE025 /* Debug */,
+				4303FBDA3072A37F004FE025 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 4303FBBA3072A37F004FE025 /* Project object */;
-	validationLevel = 1;
 }

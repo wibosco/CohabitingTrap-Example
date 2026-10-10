@@ -15,10 +15,12 @@ struct WishlistTests {
     @Test("Given a wishlist with an out-of-stock product, when it is totalled, then that product is left out")
     func outOfStockProductIsLeftOut() {
         let products = [
-            makeProduct(price: 60),
-            makeProduct(price: 45,
-                        isInStock: false),
-            makeProduct(price: 30)
+            Product(price: 60,
+                    isInStock: true),
+            Product(price: 45,
+                    isInStock: false),
+            Product(price: 30,
+                    isInStock: true)
         ]
 
         let sut = Wishlist(products: products)

@@ -41,14 +41,18 @@
 /* Begin PBXFrameworksBuildPhase section */
 		4303FC143072A421004FE025 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4303FC1D3072A421004FE025 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 				4303FC213072A421004FE025 /* TotalSplit_Example.framework in Frameworks */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -76,8 +80,10 @@
 /* Begin PBXHeadersBuildPhase section */
 		4303FC123072A421004FE025 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -92,6 +98,8 @@
 				4303FC153072A421004FE025 /* Resources */,
 			);
 			buildRules = (
+			);
+			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
 				4303FC193072A421004FE025 /* TotalSplit-Example */,
@@ -163,26 +171,34 @@
 /* Begin PBXResourcesBuildPhase section */
 		4303FC153072A421004FE025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4303FC1E3072A421004FE025 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4303FC133072A421004FE025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4303FC1C3072A421004FE025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
 			files = (
 			);
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -195,7 +211,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		4303FC273072A421004FE025 /* Debug configuration for PBXProject "TotalSplit-Example" */ = {
+		4303FC273072A421004FE025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		4303FC283072A421004FE025 /* Release configuration for PBXProject "TotalSplit-Example" */ = {
+		4303FC283072A421004FE025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -315,7 +331,7 @@
 			};
 			name = Release;
 		};
-		4303FC2A3072A421004FE025 /* Debug configuration for PBXNativeTarget "TotalSplit-Example" */ = {
+		4303FC2A3072A421004FE025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -360,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		4303FC2B3072A421004FE025 /* Release configuration for PBXNativeTarget "TotalSplit-Example" */ = {
+		4303FC2B3072A421004FE025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -405,7 +421,7 @@
 			};
 			name = Release;
 		};
-		4303FC2D3072A421004FE025 /* Debug configuration for PBXNativeTarget "TotalSplit-ExampleTests" */ = {
+		4303FC2D3072A421004FE025 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -430,7 +446,7 @@
 			};
 			name = Debug;
 		};
-		4303FC2E3072A421004FE025 /* Release configuration for PBXNativeTarget "TotalSplit-ExampleTests" */ = {
+		4303FC2E3072A421004FE025 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
@@ -461,29 +477,31 @@
 		4303FC113072A421004FE025 /* Build configuration list for PBXProject "TotalSplit-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4303FC273072A421004FE025 /* Debug configuration for PBXProject "TotalSplit-Example" */,
-				4303FC283072A421004FE025 /* Release configuration for PBXProject "TotalSplit-Example" */,
+				4303FC273072A421004FE025 /* Debug */,
+				4303FC283072A421004FE025 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		4303FC293072A421004FE025 /* Build configuration list for PBXNativeTarget "TotalSplit-Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4303FC2A3072A421004FE025 /* Debug configuration for PBXNativeTarget "TotalSplit-Example" */,
-				4303FC2B3072A421004FE025 /* Release configuration for PBXNativeTarget "TotalSplit-Example" */,
+				4303FC2A3072A421004FE025 /* Debug */,
+				4303FC2B3072A421004FE025 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 		4303FC2C3072A421004FE025 /* Build configuration list for PBXNativeTarget "TotalSplit-ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4303FC2D3072A421004FE025 /* Debug configuration for PBXNativeTarget "TotalSplit-ExampleTests" */,
-				4303FC2E3072A421004FE025 /* Release configuration for PBXNativeTarget "TotalSplit-ExampleTests" */,
+				4303FC2D3072A421004FE025 /* Debug */,
+				4303FC2E3072A421004FE025 /* Release */,
 			);
+			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
 	rootObject = 4303FC0E3072A421004FE025 /* Project object */;
-	validationLevel = 1;
 }

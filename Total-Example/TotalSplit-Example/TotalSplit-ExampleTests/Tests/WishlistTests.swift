@@ -15,10 +15,12 @@ struct WishlistTests {
     @Test("Given a wishlist with an out-of-stock product, when it is totalled, then that product is left out")
     func outOfStockProductIsLeftOut() {
         let products = [
-            makeProduct(price: 60),
-            makeProduct(price: 45,
-                        isInStock: false),
-            makeProduct(price: 30)
+            Product(price: 60,
+                    isInStock: true),
+            Product(price: 45,
+                    isInStock: false),
+            Product(price: 30,
+                    isInStock: true)
         ]
 
         let sut = Wishlist(products: products)
@@ -29,9 +31,12 @@ struct WishlistTests {
     @Test("Given a wishlist with three in-stock products, when it is totalled, then three-for-two isn't applied")
     func threeForTwoIsNotApplied() {
         let products = [
-            makeProduct(price: 60),
-            makeProduct(price: 45),
-            makeProduct(price: 30)
+            Product(price: 60,
+                    isInStock: true),
+            Product(price: 45,
+                    isInStock: true),
+            Product(price: 30,
+                    isInStock: true)
         ]
 
         let sut = Wishlist(products: products)
@@ -42,8 +47,10 @@ struct WishlistTests {
     @Test("Given a wishlist worth less than £50, when it is totalled, then delivery isn't charged")
     func deliveryIsNotCharged() {
         let products = [
-            makeProduct(price: 20),
-            makeProduct(price: 10)
+            Product(price: 20,
+                    isInStock: true),
+            Product(price: 10,
+                    isInStock: true)
         ]
 
         let sut = Wishlist(products: products)

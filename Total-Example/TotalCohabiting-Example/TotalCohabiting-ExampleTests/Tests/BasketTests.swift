@@ -15,9 +15,10 @@ struct BasketTests {
     @Test("Given a basket with an out-of-stock product, when it is totalled, then that product isn't charged for")
     func outOfStockProductIsNotChargedFor() {
         let products = [
-            makeProduct(price: 60),
-            makeProduct(price: 45,
-                        isInStock: false)
+            Product(price: 60,
+                    isInStock: true),
+            Product(price: 45,
+                    isInStock: false)
         ]
 
         let sut = Basket(products: products)
