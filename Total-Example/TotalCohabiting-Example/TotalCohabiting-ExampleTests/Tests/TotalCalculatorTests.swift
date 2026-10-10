@@ -24,9 +24,9 @@ struct TotalCalculatorTests {
         let sut = TotalCalculator()
 
         let total = sut.calculateTotal(for: products,
-                                       applyMultibuy: true,
-                                       skipOutOfStock: true,
-                                       includeDelivery: true)
+                                       applyThreeForTwoOffer: true,
+                                       applyOutOfStockFilter: true,
+                                       applyDeliveryCharge: true)
 
         // Left failing on purpose: this is the bug the post is built around, with `total` coming back as `60`.
         withKnownIssue {
@@ -47,9 +47,9 @@ struct TotalCalculatorTests {
         let sut = TotalCalculator()
 
         let total = sut.calculateTotal(for: products,
-                                       applyMultibuy: configuration.applyMultibuy,
-                                       skipOutOfStock: configuration.skipOutOfStock,
-                                       includeDelivery: configuration.includeDelivery)
+                                       applyThreeForTwoOffer: configuration.applyThreeForTwoOffer,
+                                       applyOutOfStockFilter: configuration.applyOutOfStockFilter,
+                                       applyDeliveryCharge: configuration.applyDeliveryCharge)
 
         #expect(total == configuration.totalToday)
     }

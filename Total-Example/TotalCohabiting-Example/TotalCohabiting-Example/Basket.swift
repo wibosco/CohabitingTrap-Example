@@ -6,9 +6,9 @@ struct Basket {
 
     var total: Decimal {
         let total = calculator.calculateTotal(for: products,
-                                              applyMultibuy: true,
-                                              skipOutOfStock: true,
-                                              includeDelivery: true)
+                                              applyThreeForTwoOffer: true,
+                                              applyOutOfStockFilter: true,
+                                              applyDeliveryCharge: true)
 
         return total
     }

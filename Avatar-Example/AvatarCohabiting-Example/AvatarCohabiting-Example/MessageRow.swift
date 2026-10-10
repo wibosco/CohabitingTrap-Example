@@ -13,8 +13,8 @@ struct MessageRow: View {
     var body: some View {
         AvatarView(user: sender,
                    size: 40,
-                   showsEditBadge: false,
-                   showsOnlineStatus: true)
+                   showEditBadge: false,
+                   showOnlineStatus: true)
     }
 }
 

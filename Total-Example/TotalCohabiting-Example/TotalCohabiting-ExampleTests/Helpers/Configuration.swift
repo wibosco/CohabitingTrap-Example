@@ -10,56 +10,56 @@ import Foundation
 import Testing
 
 struct Configuration: Sendable, CustomTestStringConvertible {
-    let applyMultibuy: Bool
-    let skipOutOfStock: Bool
-    let includeDelivery: Bool
+    let applyThreeForTwoOffer: Bool
+    let applyOutOfStockFilter: Bool
+    let applyDeliveryCharge: Bool
     let caller: String?
     let totalToday: Decimal
 
     var testDescription: String {
-        "applyMultibuy: \(applyMultibuy), skipOutOfStock: \(skipOutOfStock), includeDelivery: \(includeDelivery) - asked for by \(caller ?? "nobody")"
+        "applyThreeForTwoOffer: \(applyThreeForTwoOffer), applyOutOfStockFilter: \(applyOutOfStockFilter), applyDeliveryCharge: \(applyDeliveryCharge) - asked for by \(caller ?? "nobody")"
     }
 
     // These totals record what `TotalCalculator` does today, not what it should do - only two of the eight configurations have a caller to say what is right.
     static let all = [
-        Configuration(applyMultibuy: false,
-                      skipOutOfStock: false,
-                      includeDelivery: false,
+        Configuration(applyThreeForTwoOffer: false,
+                      applyOutOfStockFilter: false,
+                      applyDeliveryCharge: false,
                       caller: nil,
                       totalToday: 45),
-        Configuration(applyMultibuy: false,
-                      skipOutOfStock: false,
-                      includeDelivery: true,
+        Configuration(applyThreeForTwoOffer: false,
+                      applyOutOfStockFilter: false,
+                      applyDeliveryCharge: true,
                       caller: nil,
                       totalToday: 49),
-        Configuration(applyMultibuy: false,
-                      skipOutOfStock: true,
-                      includeDelivery: false,
+        Configuration(applyThreeForTwoOffer: false,
+                      applyOutOfStockFilter: true,
+                      applyDeliveryCharge: false,
                       caller: "Wishlist",
                       totalToday: 30),
-        Configuration(applyMultibuy: false,
-                      skipOutOfStock: true,
-                      includeDelivery: true,
+        Configuration(applyThreeForTwoOffer: false,
+                      applyOutOfStockFilter: true,
+                      applyDeliveryCharge: true,
                       caller: nil,
                       totalToday: 34),
-        Configuration(applyMultibuy: true,
-                      skipOutOfStock: false,
-                      includeDelivery: false,
+        Configuration(applyThreeForTwoOffer: true,
+                      applyOutOfStockFilter: false,
+                      applyDeliveryCharge: false,
                       caller: nil,
                       totalToday: 35),
-        Configuration(applyMultibuy: true,
-                      skipOutOfStock: false,
-                      includeDelivery: true,
+        Configuration(applyThreeForTwoOffer: true,
+                      applyOutOfStockFilter: false,
+                      applyDeliveryCharge: true,
                       caller: nil,
                       totalToday: 39),
-        Configuration(applyMultibuy: true,
-                      skipOutOfStock: true,
-                      includeDelivery: false,
+        Configuration(applyThreeForTwoOffer: true,
+                      applyOutOfStockFilter: true,
+                      applyDeliveryCharge: false,
                       caller: nil,
                       totalToday: 20),
-        Configuration(applyMultibuy: true,
-                      skipOutOfStock: true,
-                      includeDelivery: true,
+        Configuration(applyThreeForTwoOffer: true,
+                      applyOutOfStockFilter: true,
+                      applyDeliveryCharge: true,
                       caller: "Basket",
                       totalToday: 24)
     ]

@@ -13,8 +13,8 @@ struct ProfileHeader: View {
     var body: some View {
         AvatarView(user: user,
                    size: 96,
-                   showsEditBadge: true,
-                   showsOnlineStatus: false)
+                   showEditBadge: true,
+                   showOnlineStatus: false)
     }
 }
 

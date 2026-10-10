@@ -6,9 +6,9 @@ struct Wishlist {
 
     var total: Decimal {
         let total = calculator.calculateTotal(for: products,
-                                              applyMultibuy: false,
-                                              skipOutOfStock: true,
-                                              includeDelivery: false)
+                                              applyThreeForTwoOffer: false,
+                                              applyOutOfStockFilter: true,
+                                              applyDeliveryCharge: false)
 
         return total
     }

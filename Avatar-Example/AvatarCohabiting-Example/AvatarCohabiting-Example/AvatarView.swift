@@ -10,8 +10,8 @@ import SwiftUI
 struct AvatarView: View {
     let user: User
     let size: CGFloat
-    let showsEditBadge: Bool
-    let showsOnlineStatus: Bool
+    let showEditBadge: Bool
+    let showOnlineStatus: Bool
 
     var body: some View {
         photoOrInitial
@@ -19,12 +19,12 @@ struct AvatarView: View {
             .background(.gray)
             .clipShape(Circle())
             .overlay(alignment: .bottomTrailing) {
-                if showsEditBadge {
+                if showEditBadge {
                     Image(systemName: "pencil.circle.fill")
                 }
             }
             .overlay(alignment: .topTrailing) {
-                if showsOnlineStatus && user.isOnline {
+                if showOnlineStatus && user.isOnline {
                     Circle()
                         .fill(.green)
                         .frame(width: 12, height: 12)
@@ -64,8 +64,8 @@ struct AvatarView: View {
                           avatarURL: nil,
                           isOnline: true),
                size: 96,
-               showsEditBadge: true,
-               showsOnlineStatus: false)
+               showEditBadge: true,
+               showOnlineStatus: false)
 }
 
 #Preview("Message configuration") {
@@ -73,6 +73,6 @@ struct AvatarView: View {
                           avatarURL: nil,
                           isOnline: true),
                size: 40,
-               showsEditBadge: false,
-               showsOnlineStatus: true)
+               showEditBadge: false,
+               showOnlineStatus: true)
 }
