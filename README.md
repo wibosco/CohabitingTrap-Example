@@ -3,7 +3,7 @@
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/wibosco/CohabitingTrap-Example/blob/main/LICENSE)
 
 # CohabitingTrap-Example
-An example project showing the dangers of how creating the wrong abstraction results in cohabiting code.
+An example project showing the dangers of how creating the wrong abstraction results in cohabiting code, as shown in this post - https://williamboles.com/escaping-the-cohabiting-trap/.
 
 ## What's Here
 
